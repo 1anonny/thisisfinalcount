@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Alice', serif;
+}
+
+
+.imagem img{
+
+    margin-left: 38%;
+    margin-top: -30px;
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    
+}
+
+.texto1 h1{
+    position: absolute;
+    top: 500px;
+    font-size: ;
+}
+
+.texto2 h1{
+    position: absolute;
+    left: 500px;
+    font-size: 50px;
+}
+
+.texto3 h1{
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+.texto4 h1{
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+}
+
+.texto5 h1{
+    position: absolute;
+    top: 700px;
+    left: 1500px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    img{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
